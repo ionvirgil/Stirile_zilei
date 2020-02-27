@@ -1,0 +1,186 @@
+
+<html>
+
+  <head>
+
+ <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="js/jquery.rss.js"></script>
+	
+    <script>
+      jQuery(function($) {
+        $("#rss-feeds").rss("https://www.ziare.com/rss/12h.xml", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	  jQuery(function($) {
+        $("#feed_adevarul").rss("https://adevarul.ro/ex/yrssv2", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	   jQuery(function($) {
+        $("#feed_bzi").rss("https://www.bzi.ro/rss", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	  jQuery(function($) {
+        $("#feed_antena3").rss("https://www.antena3.ro/rss", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	   jQuery(function($) {
+        $("#economica").rss("https://www.economica.net/rss/stiri.xml", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	   jQuery(function($) {
+        $("#romania_libera").rss("https://romanialibera.ro/rss", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	  jQuery(function($) {
+        $("#evz").rss("https://evz.ro/feed", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	   jQuery(function($) {
+        $("#z_financiar").rss("https://www.zf.ro/rss", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	  
+	  jQuery(function($) {
+        $("#feed_luju").rss("https://www.luju.ro/rss.php", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+	  
+	  jQuery(function($) {
+        $("#cancan").rss("https://www.cancan.ro/feed", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+      
+       jQuery(function($) {
+        $("#stiri_de_cluj").rss("https://www.stiridecluj.ro/rss.xml/", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+      
+       jQuery(function($) {
+        $("#g4media").rss("https://www.g4media.ro/feed", {
+          limit: 15,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+      
+       jQuery(function($) {
+        $("#mediafax").rss("https://www.mediafax.ro/rss/", {
+          limit: 20,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+      
+     
+      
+       jQuery(function($) {
+        $("#feed_digi24").rss("https://www.digi24.ro/rss", {
+          limit: 20,
+		  effect:'slide',
+		  ssl: true,
+		  dateFormat: 'L'
+        })
+      })
+    </script>
+  
+  </head>
+  <body>
+    <div>
+      <p>Știri România este o platformă care gestionează prin intermediul surselor RSS ultimele articole publicate de principalele ziare din România. Accesul este realizat în mod gratuit iar conținutul este disponibil atât pe desktop cât și pe tabletă sau telefonul mobil.</p>
+      <h1>Mediafax</h1>
+      <div id="mediafax"></div>
+      
+	<h1>Ziare.com</h1>
+      <div id="rss-feeds"></div>
+
+	  <h1>Adevărul</h1>
+      <div id="feed_adevarul"></div>
+      
+	       <h1>Digi24</h1>
+      <div id="feed_digi24"></div>
+      
+    <h1>G4Media</h1>
+    <div id="g4media"></div>
+    
+    	 <h1>Economica.net</h1>
+      <div id="economica"></div>
+
+	   <h1>Evenimentul Zilei</h1>
+      <div id="evz"></div>
+	  
+	   <h1>România Liberă</h1>
+      <div id="romania_libera"></div>
+
+	    <h1>Ziarul Financiar</h1>
+      <div id="z_financiar"></div>
+	  
+	  <h1>Bună Ziua Iași</h1>
+      <div id="feed_bzi"></div>
+     
+	  
+	  <h1>Antena 3</h1>
+      <div id="feed_antena3"></div>
+      
+      
+       <h1>Cancan</h1>
+      <div id="cancan"></div>
+      
+	  
+    </div>
+  </body>
+</html>

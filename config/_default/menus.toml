@@ -1,0 +1,75 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+
+#[[main]]
+ # name = "Publicatii"
+ # url = "#publicatii"
+ # weight = 25
+
+[[main]]
+  name = "Mediafax"
+  url = "#mediafax"
+  weight = 30
+
+[[main]]
+  name = "Ziare.com"
+  url = "#ziare_com"
+  weight = 32
+
+[[main]]
+  name = "Adevărul"
+  url = "#adevarul"
+  weight = 33
+
+[[main]]
+  name = "Digi24"
+  url = "#digi24"
+  weight = 34
+
+[[main]]
+  name = "G4Media"
+  url = "#g4media"
+  weight = 35
+
+[[main]]
+  name = "Economica.net"
+  url = "#economica_net"
+  weight = 36
+  [[main]]
+  name = "EVZ"
+  url = "#evz"
+  weight = 36
+
+[[main]]
+  name = "România Liberă"
+  url = "#romania_libera"
+  weight = 37
+
+[[main]]
+  name = "Ziarul Financiar"
+  url = "#ziarul_financiar"
+  weight = 38
+
+[[main]]
+  name = "BZI"
+  url = "#BZI"
+  weight = 39
+
+  [[main]]
+  name = "Antena3"
+  url = "#antena3"
+  weight = 40
+
+  [[main]]
+  name = "Știri pe Surse"
+  url = "#stiri_pe_surse"
+  weight = 41
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# [[main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 70
