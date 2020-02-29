@@ -24,6 +24,12 @@
   url = "#adevarul"
   weight = 33
 
+  #[[main]]
+  #name = "test"
+  #url = "#test"
+  #parent = "Adevărul"
+  #weight = 33
+
 [[main]]
   name = "Digi24"
   url = "#digi24"
