@@ -2,13 +2,13 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "România în Date"
+title = "Știrile zilei"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "avatar.jpg"
+hero_media = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -20,7 +20,7 @@ hero_media = "avatar.jpg"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "#4bb4e3"
+  gradient_start = "#4caf50"
   gradient_end = "#2b94c3"
   
   # Background image.
@@ -33,20 +33,8 @@ hero_media = "avatar.jpg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Get Started"
-  icon_pack = "fas"
-  icon = "download"
-  
-[cta_alt]
-  url = "https://sourcethemes.com/academic/"
-  label = "View Documentation"
 
-# Note. An optional note to show underneath the links.
-[cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+
 +++
 
-România în Date este o platformă de conținut care prezintă informațiile și datele din România sub formă de articole și publicații prin intermediul tehnicilor moderne de prelucrare și afișare a datelor.
-
+Află care sunt știrile zilei de astăzi. Urmărește cele mai importante surse de știri din România și din lume.
