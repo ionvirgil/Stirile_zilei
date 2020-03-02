@@ -73,6 +73,18 @@
   name = "Știri pe Surse"
   url = "#stiri_pe_surse"
   weight = 41
+
+      [[main]]
+  name = "Reuters"
+  url = "#reuters"
+  parent= "International"
+  weight = 42
+
+        [[main]]
+  name = "The Guardian"
+  url = "#the_guardian"
+  parent= "International"
+  weight = 42
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

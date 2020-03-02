@@ -122,6 +122,23 @@ entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImag
 entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
         })
       })
+
+
+       jQuery(function($) {
+        $("#reuters").rss("http://feeds.reuters.com/reuters/topNews", {
+          limit:15,
+          ssl:true,
+entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
+        })
+      })
+
+        jQuery(function($) {
+        $("#the_guardian").rss("https://www.theguardian.com/world/rss", {
+          limit:15,
+          ssl:true,
+entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImage}{bodyPlain}</li>'
+        })
+      })
     </script>
 
   </head>
@@ -164,6 +181,12 @@ entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{teaserImag
 
        <h1>Știri pe Surse</h1>
       <div id="stiri_pe_surse"></div>
+
+       <h1>Reuters</h1>
+      <div id="reuters"></div>
+
+        <h1>The Guardian</h1>
+      <div id="the_guardian"></div>
 
 
     </div>
